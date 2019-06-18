@@ -1,6 +1,7 @@
 button {
   width: 140px;
-	height: 45px;
+  height: 45px;
+  align-self: right;
 }
 
 .App {

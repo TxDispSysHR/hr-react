@@ -7,8 +7,7 @@
     "vX": "v0",
     "english": "The General video: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ratione sequi placeat ad quod tempore culpa repellat aspernatur quas? Fugiat libero doloremque cumque nulla commodi",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
-  }
-  ,
+  },
   {
     "id": "btn1",
     "plan": "Medical: Nurse Navigator/UCM(Teledoc)/ELAP/Rx",
@@ -79,6 +78,33 @@
     "video": "./assets/images/MRF Anniversary Video Anthony Sample 3.mp4",
     "vX": "v8",
     "english": "Employee Assitance Program (EAP), Paid Time off along with specific holidays, employee discounts at Stepping Stone School, Gold's Gym, and Dell Computers.",
+    "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
+  },
+  {
+    "id": "btn9",
+    "plan": "Resetting password ",
+    "icon": "faUserTag",
+    "video": "./assets/images/MRF Anniversary Video Anthony Sample.mp4",
+    "vX": "v9",
+    "english": "Resetting password Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem",
+    "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
+  },
+  {
+    "id": "btn10",
+    "plan": "Resetting password ",
+    "icon": "faUserTag",
+    "video": "./assets/images/MRF Anniversary Video Anthony Sample 2.mp4",
+    "vX": "v10",
+    "english": "Resetting password Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem",
+    "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
+  },
+  {
+    "id": "btn11",
+    "plan": "Resetting password ",
+    "icon": "faUserTag",
+    "video": "/assets/images/MRF Anniversary Video Anthony Sample 3.mp4",
+    "vX": "v11",
+    "english": "Resetting password Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   }
 ]

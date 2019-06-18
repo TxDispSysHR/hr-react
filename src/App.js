@@ -20,6 +20,10 @@ import v5 from "./assets/images/MRF Anniversary Video Anthony Sample 3.mp4"
 import v6 from "./assets/images/MRF Anniversary Video Anthony Sample.mp4"
 import v7 from "./assets/images/MRF Anniversary Video Anthony Sample 2.mp4"
 import v8 from "./assets/images/MRF Anniversary Video Anthony Sample 3.mp4"
+import v9 from "./assets/images/MRF Anniversary Video Anthony Sample.mp4"
+import v10 from "./assets/images/MRF Anniversary Video Anthony Sample 2.mp4"
+import v11 from "./assets/images/MRF Anniversary Video Anthony Sample 3.mp4"
+import benefitsBooklet from "./assets/images/2019 Benefit Booklet- Texas Disposal Systems FINAL.pdf"
 // import Buttons from "./components/buttons/index.js";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,7 +34,8 @@ import { faStethoscope, faUserInjured, faVideo, faTooth, faGlasses, faPiggyBank,
 class App extends React.Component {
   state = {
     buttonsData,
-    vX:v0
+    vX:v0,
+    benefitsBooklet: benefitsBooklet
   };
 
   // changeVideo = () => {
@@ -111,17 +116,27 @@ class App extends React.Component {
   btn8 = () => {
     this.setState({vX: v8});
   };
+
+  btn9 = () => {
+    this.setState({vX: v9});
+  };
+
+  btn10 = () => {
+    this.setState({vX: v10});
+  };
+
+  btn11 = () => {
+    this.setState({vX: v11});
+  };
   
   render() {
     return (
       <div className="App">
         <Title />
         <Jumbotron />
-
         <Container>
           <VideoBox video = {this.state.vX} />
         </Container>
-
         <br />
         <br />
         <br />
@@ -164,7 +179,7 @@ class App extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 text-center">
-                <button type="button" id="btn1" className="btn btn-primary" onClick={this.btn2}>
+                <button type="button" id="btn2" className="btn btn-primary" onClick={this.btn2}>
                     <FontAwesomeIcon icon={faTooth} />
                   </button>
                 </div>
@@ -181,7 +196,7 @@ class App extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 text-center">
-                <button type="button" id="btn1" className="btn btn-primary" onClick={this.btn3}>
+                <button type="button" id="btn3" className="btn btn-primary" onClick={this.btn3}>
                     <FontAwesomeIcon icon={faGlasses} />
                   </button>
                 </div>
@@ -198,7 +213,7 @@ class App extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 text-center">
-                <button type="button" id="btn1" className="btn btn-primary" onClick={this.btn4}>
+                <button type="button" id="btn4" className="btn btn-primary" onClick={this.btn4}>
                     <FontAwesomeIcon icon={faPiggyBank} />
                   </button>
                 </div>
@@ -215,7 +230,7 @@ class App extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 text-center">
-                <button type="button" id="btn1" className="btn btn-primary" onClick={this.btn5}>
+                <button type="button" id="btn5" className="btn btn-primary" onClick={this.btn5}>
                     <FontAwesomeIcon icon={faPiggyBank} />
                   </button>
                 </div>
@@ -232,7 +247,7 @@ class App extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 text-center">
-                <button type="button" id="btn1" className="btn btn-primary" onClick={this.btn6}>
+                <button type="button" id="btn6" className="btn btn-primary" onClick={this.btn6}>
                     <FontAwesomeIcon icon={faUserInjured} />
                   </button>
                 </div>
@@ -249,7 +264,7 @@ class App extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 text-center">
-                <button type="button" id="btn1" className="btn btn-primary" onClick={this.btn7}>
+                <button type="button" id="btn7" className="btn btn-primary" onClick={this.btn7}>
                     <FontAwesomeIcon icon={faPiggyBank} />
                   </button>
                 </div>
@@ -266,20 +281,74 @@ class App extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-4 text-center">
-                <button type="button" id="btn1" className="btn btn-primary" onClick={this.btn8}>
+                <button type="button" id="btn8" className="btn btn-primary" onClick={this.btn8}>
                     <FontAwesomeIcon icon={faUserTag} />
                   </button>
                 </div>
                 <div className="col-sm-8 text-left">
-                    Employee Assitance Program (EAP), Paid Time off along with specific holidays, employee discounts at Stepping Stone School, Gold's Gym, and Dell Computers.
+                    <p>Employee Assitance Program (EAP), Paid Time off along with specific holidays, employee discounts at Stepping Stone School, Gold's Gym, and Dell Computers.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div className="row">
+          <div className="row text-center">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-4 text-center">
+                <button type="button" id="btn9" className="btn btn-primary" onClick={this.btn9}>
+                    <FontAwesomeIcon icon={faUserTag} />
+                  </button>
+                </div>
+                <div className="col-sm-8 text-left">
+                    <p>Resetting password Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="row text-center">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-4 text-center">
+                <button type="button" id="btn10" className="btn btn-primary" onClick={this.btn10}>
+                    <FontAwesomeIcon icon={faUserTag} />
+                  </button>
+                </div>
+                <div className="col-sm-8 text-left">
+                    <p>Resetting password Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="row text-center">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-4 text-center">
+                  <button type="button" id="btn11" className="btn btn-primary" onClick={this.btn11}>
+                    <FontAwesomeIcon icon={faUserTag} />
+                  </button>
+                </div>
+                <div className="col-sm-8 text-left">
+                  <p>Resetting password Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <br />
         <br />
-        <Links />
+        <Links 
+        benefitsBooklet = {this.state.benefitsBooklet}/>
         <br />
         <br />
         <br />
