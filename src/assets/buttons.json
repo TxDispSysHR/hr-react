@@ -1,74 +1,83 @@
 [
   {
-    "id": 0,
+    "id": "btn0",
     "plan": "General",
     "icon": "faVideo",
     "video": "./assets/images/MRF Anniversary Video Anthony Sample.mp4",
+    "vX": "v0",
     "english": "The General video: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ratione sequi placeat ad quod tempore culpa repellat aspernatur quas? Fugiat libero doloremque cumque nulla commodi",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   }
   ,
   {
-    "id": 1,
+    "id": "btn1",
     "plan": "Medical: Nurse Navigator/UCM(Teledoc)/ELAP/Rx",
     "icon": "faStethoscope",
     "video": "./assets/images/MRF Anniversary Video Anthony Sample 2.mp4",
+    "vX": "v1",
     "english": "Medical Coverage: The medical plan includes Standard and Premium plan options. Both options provide wellness benefits and incentives, a prescription program and benefit advocates.",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   },
   {
-    "id": 2,
+    "id": "btn2",
     "plan": "Dental",
     "icon": "faTooth",
-    "video": "/assets/images/MRF Anniversary Video Anthony Sample 3.mp4",
+    "video": "./assets/images/MRF Anniversary Video Anthony Sample 3.mp4",
+    "vX": "v2",
     "english": "Dental Coverage: The dental plan includes preventative, restorative, and orthodontia services Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor quas nemo nisi aliquid harum rem. Quibusdam!",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   },
   {
-    "id": 3,
+    "id": "btn3",
     "plan": "Vision",
     "icon": "faGlasses",
     "video": "./assets/images/MRF Anniversary Video Anthony Sample.mp4",
+    "vX": "v3",
     "english": "Vision: The vision plan provides coverage for an exam, prescription lenses, frames and contact lenses. aaaaaaaaaaaaaa aaaaaaaaaa aaaaaaaa aaaaaaaa aaaaaaa aaaaa aaaaaa aaaaaaaa aa",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   },
   {
-    "id": 4,
+    "id": "btn4",
     "plan": "FSA/Cards",
     "icon": "faPiggyBank",
     "video": "./assets/images/MRF Anniversary Video Anthony Sample 2.mp4",
+    "vX": "v4",
     "english": "FSA: Employees have the opportunity to set aside money on a pre-tax basis (through payroll deductions) for eligible anticipated out-of-pocket health care and dependent care expenses.",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   },
   {
-    "id": 5,
+    "id": "btn5",
     "plan": "Life Insurance/BLIFE/VLIFE/Beneficiaries",
     "icon": "faPiggyBank",
-    "video": "/assets/images/MRF Anniversary Video Anthony Sample 3.mp4",
+    "video": "./assets/images/MRF Anniversary Video Anthony Sample 3.mp4",
+    "vX": "v5",
     "english": "Life and AD&D insurance coverage is provided at two times the employee's basic annual earnings at no charge to the employee. Employees are also eligible to purchase additional life insurance coverage for themselves and their family.",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   },
   {
-    "id": 6,
+    "id": "btn6",
     "plan": "STD/LTD",
     "icon": "faUserInjured",
     "video": "./assets/images/MRF Anniversary Video Anthony Sample.mp4",
+    "vX": "v6",
     "english": "Basic STD and LTD insurance are provided at no cost to the employee. Employees who are unable to work due to illness or injury may receive a salary-based disability benefit.",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   },
   {
-    "id": 7,
+    "id": "btn7",
     "plan": "401K/Beneficiaries",
     "icon": "faPiggyBank",
     "video": "./assets/images/MRF Anniversary Video Anthony Sample 2.mp4",
+    "vX": "v7",
     "english": "Employees have the opportunity to participate in a 401(k) retirement plan. Employees are eligible to participate in a 401(k) plan after completing 90 days of employment. A company match is available with a minimum contribution.",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   },
   {
-    "id": 8,
+    "id": "btn8",
     "plan": "Supp bene: EAP/Critical Illness/Accident/LifeLock/Gold's ",
     "icon": "faUserTag",
-    "video": "/assets/images/MRF Anniversary Video Anthony Sample 3.mp4",
+    "video": "./assets/images/MRF Anniversary Video Anthony Sample 3.mp4",
+    "vX": "v8",
     "english": "Employee Assitance Program (EAP), Paid Time off along with specific holidays, employee discounts at Stepping Stone School, Gold's Gym, and Dell Computers.",
     "espanol": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, officia quas! Nemo obcaecati omnis ipsam porro dignissimos! A reiciendis accusantium dignissimos aliquam aspernatur fugiat sit, quidem neque natus, ea cupiditate?"
   }
