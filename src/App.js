@@ -1,5 +1,4 @@
 // Make it DRY
-// links needs to pull up the correct value
 
 import React from 'react';
 import Title from "./components/title/index.js";
