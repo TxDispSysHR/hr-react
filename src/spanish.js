@@ -1,7 +1,7 @@
 // Make it DRY
 
 import React from 'react';
-import Title from "./components/title/index.js";
+import Title from "./components/spanishTitle/index.js";
 import Jumbotron from "./components/jumbotron/index.js";
 import Container from "./components/container/index.js";
 import VideoBox from "./components/video/index.js"
@@ -36,8 +36,6 @@ class App extends React.Component {
     vX:v0,
     benefitsBooklet: benefitsBooklet
   };
-
-  
 
   // changeVideo = () => {
   //   this.setState({vX: {buttonsData.vX}});
