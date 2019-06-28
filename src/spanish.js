@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Title from "./components/spanishTitle/index.js";
-import Jumbotron from "./components/jumbotron/index.js";
+import Jumbotron from "./components/spanishJumbotron/index.js";
 import Container from "./components/container/index.js";
 import VideoBox from "./components/video/index.js"
 import Footer from "./components/footer/index.js";
