@@ -28,8 +28,6 @@ import benefitsBooklet from "./assets/images/2019 Benefit Booklet- Texas Disposa
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStethoscope, faUserInjured, faVideo, faTooth, faGlasses, faPiggyBank, faUserTag } from '@fortawesome/free-solid-svg-icons';
 
-
-
 class App extends React.Component {
   state = {
     buttonsData,
@@ -37,7 +35,7 @@ class App extends React.Component {
     benefitsBooklet: benefitsBooklet
   };
 
-  
+
 
   // changeVideo = () => {
   //   this.setState({vX: {buttonsData.vX}});
