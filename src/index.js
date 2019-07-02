@@ -1,5 +1,9 @@
+import "@babel/polyfill";
+
 import "core-js/es/map";
 import "core-js/es/set";
+import "core-js";
+import "regenerator-runtime/runtime";
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -9,6 +13,9 @@ import Notfound from "./notfound";
 import App from './App';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+require("@babel/polyfill");
+
+
 
 const routing = (
     <Router>
