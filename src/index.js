@@ -1,4 +1,4 @@
-import 'react-app-polyfill/ie9';
+import 'react-app-polyfill/ie9.js';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -8,9 +8,6 @@ import Notfound from "./notfound";
 import App from './App';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-
-
-
 
 const routing = (
     <Router>
