@@ -1,5 +1,4 @@
-import "react-app-polyfill/ie9";
-import "react-app-polyfill/stable";
+import "babel-polyfill";
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -9,7 +8,7 @@ import Notfound from "./notfound";
 import App from './App';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-require("@babel/polyfill");
+
 
 
 
