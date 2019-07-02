@@ -1,9 +1,5 @@
-import "@babel/polyfill";
-
-import "core-js/es/map";
-import "core-js/es/set";
-import "core-js";
-import "regenerator-runtime/runtime";
+import "react-app-polyfill/ie9";
+import "react-app-polyfill/stable";
 
 import React from 'react';
 import ReactDOM from 'react-dom';
