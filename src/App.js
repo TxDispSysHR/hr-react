@@ -24,7 +24,6 @@ import v10 from "./assets/images/MRF Anniversary Video Anthony Sample 2.mp4"
 import v11 from "./assets/images/MRF Anniversary Video Anthony Sample 3.mp4"
 import benefitsBooklet from "./assets/images/2019 Benefit Booklet- Texas Disposal Systems FINAL.pdf"
 // import Buttons from "./components/buttons/index.js";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStethoscope, faUserInjured, faVideo, faTooth, faGlasses, faPiggyBank, faUserTag } from '@fortawesome/free-solid-svg-icons';
 
